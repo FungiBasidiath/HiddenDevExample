@@ -34,7 +34,7 @@ function houses.Init()
 	for i,v in pairs(ThaelariousNames) do
 		table.insert(AllHouses,ThaelariousNames[i])
 	end
-	--These insert the houses into the 'allhouses' table
+	--These insert the houses into the 'allhouses' table. I could shrink it down to one  loop instead of three, but I just didn't. 
 
 
 
